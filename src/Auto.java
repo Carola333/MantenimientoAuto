@@ -23,4 +23,17 @@ public class Auto extends VehiculoPasajeros {
         System.out.println("Tipo de combustible: " +tipoCombustible);
     }
 
+    @Override
+    public void RealizarMantenimiento() {
+        System.out.println("Para el mantenimiento del auto ocupamos");
+        System.out.println("/tReabastecer gasolina");
+        System.out.println("/tLimpiar el interior");
+        System.out.println("/tRevisar frenos");
+    }
+
+    public void calcularCostoMantenimiento(double kmrecorrido, double costoporkm){
+        double costoMantenimiento = kmrecorrido * costoporkm;
+        System.out.println(costoMantenimiento+" $");
+    }
+
 }

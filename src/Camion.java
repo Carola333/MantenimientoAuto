@@ -22,4 +22,13 @@ public class Camion extends VehiculoCarga  {
         System.out.println("Numero de ejes: " +numEjes);
     }
 
+    @Override
+    public void RealizarMantenimiento() {
+        System.out.println("Para el camion se necesita");
+        System.out.println("/tReabastecer diesel");
+        System.out.println("/tLimpiar cabina");
+        System.out.println("/trevisar amortiguadores");
+    }
+
+
 }
