@@ -51,12 +51,14 @@ public class Vehiculo {
                 System.out.println("Año: " +año);
                 System.out.println("Kilometraje: " +kilometraje);
             }
-    
-            
-    
-    
-                
-    
+
+            public void RealizarMantenimiento() {
+                System.out.println("Mantenimiento del vehiculo");
+                System.out.println("/tLimpieza de los filtros");
+                System.out.println("/tlimpieza de los faros");
+                System.out.println("/tCambio de aceite");
+                System.out.println("/tProbar frenos");
+            }
     
     }
     

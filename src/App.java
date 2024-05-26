@@ -9,10 +9,35 @@ public class App {
         //mostrar la informacion de cada vehiculo
         System.out.println("Informacion del auto");
         auto.mostrarInfo();
+        System.out.println("Se recomienda hacer mantenimiento cada 6 meses al vehiculo");
+
+        System.out.println("El precio del mantenimiento es: ");
+        auto.calcularCostoMantenimiento(100, 20);
+
+        System.out.println("================================================");
+       
+        System.out.println("Para el mantenimiento del auto ocupamos");
+        System.out.println("-Reabastecer gasolina");
+        System.out.println("-Limpiar el interior");
+        System.out.println("-Revisar frenos");
+
+
 
         System.out.println("============================================");
 
         System.out.println("Informacion del camion");
         camion.mostrarInfo();
+        System.out.println("Se recomienda hacer mantenimiento cada 6 meses al camion");
+
+        System.out.println("==============================================");
+
+         System.out.println("Para el camion se necesita");
+        System.out.println("-Reabastecer diesel");
+        System.out.println("-Limpiar cabina");
+        System.out.println("-Revisar amortiguadores");
+
+        System.out.println("El precio del mantenimiento es: ");
+        auto.calcularCostoMantenimiento(150, 30);
     }
+    
 }
